@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.util.stream.Collectors;
 
 public class InputJsonFileReader {
-    private String fileName;
+    private final String fileName;
     private JSONObject jsonObject;
 
     public InputJsonFileReader(String fileName) {

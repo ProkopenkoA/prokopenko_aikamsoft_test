@@ -5,7 +5,7 @@ import dto.OperationType;
 import java.util.stream.Stream;
 
 public class ArgumentParser {
-    private String arguments[];
+    private final String[] arguments;
     private OperationType operationType;
     private String inputFile;
     private String outputFile;

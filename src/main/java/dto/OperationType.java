@@ -4,7 +4,7 @@ public enum OperationType {
     SEARCH("search"),
     STAT("stat");
 
-    private String operation;
+    private final String operation;
 
     OperationType(String operation) {
         this.operation = operation;

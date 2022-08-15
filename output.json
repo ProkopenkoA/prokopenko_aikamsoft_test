@@ -1,1 +1,65 @@
-{"totalDays":2619,"avgExpenses":163,"totalExpenses":981,"customers":[{"purchases":[{"name":"Пиво","expenses":99}],"name":"Смаль Иван","totalExpenses":99},{"purchases":[{"name":"Пиво","expenses":199},{"name":"Сигареты","expenses":320},{"name":"Энергитос","expenses":66},{"name":"Сыр","expenses":22}],"name":"Прокопенко Андрей","totalExpenses":607},{"purchases":[{"name":"Сыр","expenses":11}],"name":"Бурдуков Дмитрий","totalExpenses":11},{"purchases":[{"name":"Пиво","expenses":99},{"name":"Сыр","expenses":88}],"name":"Егоров Андрей","totalExpenses":187},{"purchases":[{"name":"Сыр","expenses":11}],"name":"Борзых Владимир","totalExpenses":11},{"purchases":[{"name":"Сыр","expenses":66}],"name":"Дмитриев Андрей","totalExpenses":66}],"type":"stat"}
+{
+  "type": "search",
+  "results": [
+    {
+      "criteria": {
+        "lastName": "Иванов"
+      },
+      "results": [
+        {
+          "Иванов": "Игорь"
+        },
+        {
+          "Иванов": "Андрей"
+        }
+      ]
+    },
+    {
+      "criteria": {
+        "minTimes": 5,
+        "productName": "Сыр"
+      },
+      "results": [
+        {
+          "Дмитриев": "Андрей"
+        },
+        {
+          "Егоров": "Андрей"
+        }
+      ]
+    },
+    {
+      "criteria": {
+        "minExpenses": 112,
+        "maxExpenses": 4000
+      },
+      "results": [
+        {
+          "Прокопенко": "Андрей"
+        },
+        {
+          "Егоров": "Андрей"
+        },
+        {
+          "Дмитриев": "Андрей"
+        }
+      ]
+    },
+    {
+      "criteria": {
+        "badCustomers": 3
+      },
+      "results": [
+        {
+          "Смаль": "Иван"
+        },
+        {
+          "Бурдуков": "Дмитрий"
+        },
+        {
+          "Борзых": "Владимир"
+        }
+      ]
+    }
+  ]
+}
