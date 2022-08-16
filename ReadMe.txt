@@ -8,6 +8,7 @@ stat (Статистика за период)
 Пример командной строки: Main search input.json output.json;
 
 Используется: Java 8, PostgreSQL 9.6, Maven
+Среда разработки: Inteliji Idea
 
 База данных: Дамб находиться в папке PostgreSql.
 Создается три таблицы:
