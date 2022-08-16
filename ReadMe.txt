@@ -5,7 +5,7 @@
 search (Поиск по критериям)
 stat (Статистика за период)
 На вход и выход дается Json файл
-Пример командной строки: Main search input.json output.json;
+Пример аргументов командной строки: search input.json output.json;
 
 Используется: Java 8, PostgreSQL 9.6, Maven
 Среда разработки: Inteliji Idea
